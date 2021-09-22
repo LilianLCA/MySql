@@ -15,7 +15,8 @@ Vamos começar pelos tipos de modelagem que podemos seguir para construção do 
 > Aqui evitamos qualquer detalhamento mais especifico do modelo do banco de dados(abstração de mais alto nível);
 > 
 > Sua finalidade é caoturar os requisitos de informação e regras de negócio sob o ponto de vista do negocio.
-> 
+
+<div align="center"><img src="https://imgur.com/F8ccyLB" width="300" title="source: imgur.com" /></div>
 
 
 
