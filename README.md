@@ -27,6 +27,15 @@ Abaixo alguns dos sites *gratuitos* para criação do **DER**
 Utilizei abaixo um modelo que construimos no Lucidchart como exemplo
 <div align="center"><img src="https://user-images.githubusercontent.com/57760132/134390890-4a14246d-a8e5-4e93-841f-6a2dfae2c82c.png" width="400" title="source: imgur.com" /></div>
 
+> Tabelas
+> Atributos ( nome, email, senha, id)
+> Cardinalidade : identificamos o tipo de relação entre tabelas à partir do valor que está depois da vírgula. no caso temos a cardinalidade de **1:N**
+> Fazemos a seguinte pergunta para construir o relacionamento de acordo com a regra de negocio. Para tal modelo o cliente precisa fazer um registro para levar um livro, mas ele pode sair da livraria sem levar nenhum
+> 1. Qual mínimo de livros que um cliente pode comprar? R: 0
+> 2. Qual máximo de livros que um cliente pode comprar? R: N
+> 3. Qual mínimo de clientes que pode comprar um livro? R: 1 
+> 4. Qual máximo de clientes que podem comprar o mesmo livro? R:1
+
 
 
 
