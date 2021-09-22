@@ -29,8 +29,11 @@ Utilizei abaixo um modelo que construimos no Lucidchart como exemplo
 
 > Tabelas
 > Atributos ( nome, email, senha, id)
+> 
 > Cardinalidade : identificamos o tipo de relação entre tabelas à partir do valor que está depois da vírgula. no caso temos a cardinalidade de **1:N**
+> 
 > Fazemos a seguinte pergunta para construir o relacionamento de acordo com a regra de negocio. Para tal modelo o cliente precisa fazer um registro para levar um livro, mas ele pode sair da livraria sem levar nenhum
+> 
 > 1. Qual mínimo de livros que um cliente pode comprar? R: 0
 > 2. Qual máximo de livros que um cliente pode comprar? R: N
 > 3. Qual mínimo de clientes que pode comprar um livro? R: 1 
