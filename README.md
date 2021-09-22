@@ -53,6 +53,17 @@ Para trabalhar com modelo lógico podemos utilizar agumas ferramentas gratuitas,
 Utilizei abaixo um modelo que construimos no Dbdesigner como exemplo:
 <div align="center"><img src="https://user-images.githubusercontent.com/57760132/134400874-b37bf7b3-dd20-4e5d-9d71-01ef697ef17e.png" width="400" title="source: imgur.com" /></div>
 
+> Vale salientar que a *chave estrangeira* sempre vai ficar no lado que tem o N como cardinalidade, olhando a cima percebemos que na relação cliente livros **(1:N)** a chave estrangeira nomeada de *fk_id_livro* origina-se na entidade *tb_livros* e relaciona com *id_cliente*;
+> Importante a chave estrangeira ter o mesmo tipo da primária em, não esqueçam!
+> No próprio DBdesigner podemos gerar os comandos ( query ) para chegar a o ultimo nível de modelagem física.
+> Após concluir o Diagrama, salve o projeto através do menu **Esquema -> Salvar**
+> Exporte o Diagrama no formato PDF através do menu **Exportar -> PDF** e faça o download do arquivo
+> Gere o código SQL através do  menu **Exportar => SQL**
+> Na janela abaixo, clique em **Gerar SQL** e baixe o arquivo no formato SQL
+
+    <div align="center"><img src="https://i.imgur.com/dEDgYtk.png" title="source: imgur.com" /></div>
+
+    <div align="center"><img src="https://i.imgur.com/SZlpX0n.png" title="source: imgur.com" /></div>
 
 
 
