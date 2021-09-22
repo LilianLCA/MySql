@@ -75,9 +75,8 @@ Utilizei abaixo um modelo que construimos no Dbdesigner como exemplo:
 
 > Dica de ouro é: Sempre que for fazer o código de criação de tabelas importante focar em um detalhe, se existe chave estrangeira é interessante que ela seja criada por ultimo. Pois ela se referencia a tabela principal na qual vamos relacionar com a chave primária. 
 
-Como no exemplo abaixo:
-~~~create database db_femma;
-drop database db_femma;
+Como no exemplo abaixo, utilizando comandos no MySql workbench(https://www.mysql.com/products/workbench/):
+~~~create database db_femme;
 create database db_femme;
 use db_femme;
 create table tb_clientes(
@@ -99,6 +98,8 @@ SELECT * FROM db_femme.tb_clientes;
     id_cliente bigint,
     constraint fk_id_cliente
     foreign key (id_cliente) references tb_clientes (id_cliente));
+    
+    SELECT * FROM db_femme.tb_livros;
 ~~~
 
 
