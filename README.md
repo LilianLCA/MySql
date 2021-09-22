@@ -19,7 +19,7 @@ Vamos começar pelos tipos de modelagem que podemos seguir para construção do 
 ### beleza camis, mas e aí, como eu posso criar o meu próprio DER definindo a regra de negocio que desejo para implementação do meu banco?
 Os diagramas UML (do inglês, Linguagem de Modelagem Unificada) são uma verdadeira “mão na roda” para explicar itens abstratos, como um programa ou um sistema. Eles são muito utilizados porque criam uma espécie de “linguagem visual comum” dentro do complexo universo do desenvolvimento de softwares.
 
-Abaixo alguns dos sites *gratuitos* para criação do **DER** 
+Segue alguns dos sites *gratuitos* para criação do **DER** 
 1. [Edraw Max](https://www.edrawmax.com/)
 2. [Lucidchart](https://www.lucidchart.com/pages/pt/exemplos/uml-online)
 3. [Draw.io (...)](https://app.diagrams.net/)
@@ -30,7 +30,7 @@ Utilizei abaixo um modelo que construimos no Lucidchart como exemplo
 > Tabelas
 > Atributos ( nome, email, senha, id)
 > 
-> Cardinalidade : identificamos o tipo de relação entre tabelas à partir do valor que está depois da vírgula. no caso temos a cardinalidade de **1:N**
+> [Cardinalidade](https://www.devmedia.com.br/modelagem-1-n-ou-n-n/38894) : identificamos o tipo de relação entre tabelas à partir do valor que está depois da vírgula nas duas tabelas. No caso, temos a cardinalidade de **1:N**
 > 
 > Fazemos a seguinte pergunta para construir o relacionamento de acordo com a regra de negocio. Para tal modelo o cliente precisa fazer um registro para levar um livro, mas ele pode sair da livraria sem levar nenhum
 > 
@@ -39,9 +39,19 @@ Utilizei abaixo um modelo que construimos no Lucidchart como exemplo
 > 3. Qual mínimo de clientes que pode comprar um livro? R: 1 
 > 4. Qual máximo de clientes que podem comprar o mesmo livro? R:1
 
+Temos também as cardinalidades **1:1** *(one to one)* e **N:N** *(many to many)* que seguem a mesma lógica de construção no DER.
 
+> ## Modelagem lógica
 
+A grande máxima é que no conceitual não temos a chave estrangeira, conforme seguimos para modelagem lógica é acrescentado a [*chave estrangeira*](https://www.devmedia.com.br/sql-aprenda-a-utilizar-a-chave-primaria-e-a-chave-estrangeira/37636) no nosso Diagramas ER(entidade relacional).
 
+Para trabalhar com modelo lógico podemos utilizar agumas ferramentas gratuitas, ou o próprio MySql.
+1. [MySql workbench](https://www.mysql.com/products/workbench/)
+2. [Astah Professional](https://astah.net/)
+3. [DBdesigner](https://www.dbdesigner.net/)
+
+Utilizei abaixo um modelo que construimos no Dbdesigner como exemplo:
+<div align="center"><img src="https://user-images.githubusercontent.com/57760132/134400874-b37bf7b3-dd20-4e5d-9d71-01ef697ef17e.png" width="400" title="source: imgur.com" /></div>
 
 
 
