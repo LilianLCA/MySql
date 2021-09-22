@@ -71,7 +71,7 @@ Utilizei abaixo um modelo que construimos no Dbdesigner como exemplo:
 <div align="center"><img src="https://user-images.githubusercontent.com/57760132/134402467-26c10354-ff99-450e-92a1-6e7fe559c324.png" width="400" title="source: imgur.com" /></div>
 
 > ## Modelagem física
-> Chegou a hora de colocar os comandos em prática, em?
+Chegou a hora de colocar os comandos em prática, em?
 
 > Dica de ouro é: Sempre que for fazer o código de criação de tabelas importante focar em um detalhe, se existe chave estrangeira é interessante que ela seja criada por ultimo. Pois ela se referencia a tabela principal na qual vamos relacionar com a chave primária. 
 
