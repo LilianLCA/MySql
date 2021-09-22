@@ -76,7 +76,7 @@ Utilizei abaixo um modelo que construimos no Dbdesigner como exemplo:
 > Dica de ouro é: Sempre que for fazer o código de criação de tabelas importante focar em um detalhe, se existe chave estrangeira é interessante que ela seja criada por ultimo. Pois ela se referencia a tabela principal na qual vamos relacionar com a chave primária. 
 
 Como no exemplo abaixo:
-`create database db_femma;
+~~~create database db_femma;
 drop database db_femma;
 create database db_femme;
 use db_femme;
@@ -88,9 +88,9 @@ create table tb_clientes(
     primary key (id_cliente),
 );
 SELECT * FROM db_femme.tb_clientes;
-`
+~~~
 
-`tb_clientescreate table tb_livros(
+~~~tb_clientescreate table tb_livros(
 	id_livro bigint(5) auto_increment primary key, 
     nome varchar(30) not null,
     genero varchar(50),
@@ -99,7 +99,7 @@ SELECT * FROM db_femme.tb_clientes;
     id_cliente bigint,
     constraint fk_id_cliente
     foreign key (id_cliente) references tb_clientes (id_cliente));
-`
+~~~
 
 
 
