@@ -16,7 +16,7 @@ Vamos começar pelos tipos de modelagem que podemos seguir para construção do 
 > 
 > Sua finalidade é caoturar os requisitos de informação e regras de negócio sob o ponto de vista do negocio.
 
-<div align="center"><img src="https://imgur.com/F8ccyLB" width="300" title="source: imgur.com" /></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/57760132/134390468-c0ad8924-4ee2-4807-b802-1445011ef16e.png" width="300" title="source: imgur.com" /></div>
 
 
 
