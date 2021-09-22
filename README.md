@@ -68,11 +68,38 @@ Utilizei abaixo um modelo que construimos no Dbdesigner como exemplo:
 > Na janela abaixo, clique em **Gerar SQL** e baixe o arquivo no formato SQL
 > 
 
-<div align="center"><img src="https://user-images.githubusercontent.com/57760132/134402467-26c10354-ff99-450e-92a1-6e7fe559c324.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/57760132/134402467-26c10354-ff99-450e-92a1-6e7fe559c324.png" width="400" title="source: imgur.com" /></div>
 
+> ## Modelagem física
+> Chegou a hora de colocar os comandos em prática, em?
 
+> Dica de ouro é: Sempre que for fazer o código de criação de tabelas importante focar em um detalhe, se existe chave estrangeira é interessante que ela seja criada por ultimo. Pois ela se referencia a tabela principal na qual vamos relacionar com a chave primária. 
 
+Como no exemplo abaixo:
+`create database db_femma;
+drop database db_femma;
+create database db_femme;
+use db_femme;
+create table tb_clientes(
+	id_cliente bigint(5) auto_increment, 
+    nome varchar(30) not null,
+    email varchar(50),
+    senha varchar(50),
+    primary key (id_cliente),
+);
+SELECT * FROM db_femme.tb_clientes;
+`
 
+`tb_clientescreate table tb_livros(
+	id_livro bigint(5) auto_increment primary key, 
+    nome varchar(30) not null,
+    genero varchar(50),
+    ano date,
+    preco double(4,2) not null,
+    id_cliente bigint,
+    constraint fk_id_cliente
+    foreign key (id_cliente) references tb_clientes (id_cliente));
+`
 
 
 
