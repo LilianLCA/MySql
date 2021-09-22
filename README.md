@@ -9,9 +9,13 @@ Vamos começar pelos tipos de modelagem que podemos seguir para construção do 
 
 > ## Modelagem conceitual
 > Também chamado de Diagrama Entidade e Relacionamento (DER), nesse modelo identificaremos todas as entidades(tabelas) e relacionamento de uma forma mais global;
-> Aqui evitamos qualquer detalhamento mais especifico do modelo do banco de dados( abstração de mais alto nível);
-> esse modelo é melhor compreendido por quem nunca praticou, pois facilita a compreensão semantica dos dados;
+> <hr>
+> Esse modelo pode ser melhor compreendido por quem nunca praticou, pois facilita a compreensão semantica dos dados;
+> <hr>
+> Aqui evitamos qualquer detalhamento mais especifico do modelo do banco de dados(abstração de mais alto nível);
+> <hr>
 > Sua finalidade é caoturar os requisitos de informação e regras de negócio sob o ponto de vista do negocio.
+> 
 
 
 
