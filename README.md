@@ -16,14 +16,20 @@ Vamos começar pelos tipos de modelagem que podemos seguir para construção do 
 > 
 > Sua finalidade é caoturar os requisitos de informação e regras de negócio sob o ponto de vista do negocio.
 
-### beleza camis, mas e aí como eu posso criar o meu próprio DER definindo a regra de negocio que desejo para implementação do meu banco?
+### beleza camis, mas e aí, como eu posso criar o meu próprio DER definindo a regra de negocio que desejo para implementação do meu banco?
 Os diagramas UML (do inglês, Linguagem de Modelagem Unificada) são uma verdadeira “mão na roda” para explicar itens abstratos, como um programa ou um sistema. Eles são muito utilizados porque criam uma espécie de “linguagem visual comum” dentro do complexo universo do desenvolvimento de softwares.
 
 Abaixo alguns dos sites *gratuitos* para criação do **DER** 
-1. Edraw Max
-2. Lucidchart
-3. Draw.io (...)
+1. [Edraw Max](https://www.edrawmax.com/)
+2. [Lucidchart](https://www.lucidchart.com/pages/pt/exemplos/uml-online)
+3. [Draw.io (...)](https://app.diagrams.net/)
+
+Utilizei abaixo um modelo que construimos no Lucidchart como exemplo
 <div align="center"><img src="https://user-images.githubusercontent.com/57760132/134390890-4a14246d-a8e5-4e93-841f-6a2dfae2c82c.png" width="400" title="source: imgur.com" /></div>
+
+
+
+
 
 
 
