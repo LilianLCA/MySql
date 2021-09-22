@@ -68,7 +68,7 @@ Utilizei abaixo um modelo que construimos no Dbdesigner como exemplo:
 > Na janela abaixo, clique em **Gerar SQL** e baixe o arquivo no formato SQL
 > 
 
-<div align="center"><img src="![image](https://user-images.githubusercontent.com/57760132/134402467-26c10354-ff99-450e-92a1-6e7fe559c324.png)" title="source: imgur.com" /></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/57760132/134402467-26c10354-ff99-450e-92a1-6e7fe559c324.png" title="source: imgur.com" /></div>
 
 
 
