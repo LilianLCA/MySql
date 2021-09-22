@@ -53,7 +53,7 @@ Para trabalhar com modelo lógico podemos utilizar agumas ferramentas gratuitas,
 Utilizei abaixo um modelo que construimos no Dbdesigner como exemplo:
 <div align="center"><img src="https://user-images.githubusercontent.com/57760132/134400874-b37bf7b3-dd20-4e5d-9d71-01ef697ef17e.png" width="400" title="source: imgur.com" /></div>
 
-> Vale salientar que a *chave estrangeira* sempre vai ficar no lado que tem o N como cardinalidade, olhando a cima percebemos que na relação cliente livros **(1:N)** a chave estrangeira nomeada de *fk_id_livro* origina-se na entidade *tb_livros* e relaciona com *id_cliente*;
+> Vale salientar que a *chave estrangeira* sempre vai ficar no lado que tem o **N** como cardinalidade, olhando na imagem a cima percebemos que na relação cliente--> livros **(1:N)** a chave estrangeira nomeada de *fk_id_livro* origina-se na entidade *tb_livros* e relaciona com *id_cliente*;
 > 
 > Importante a chave estrangeira ter o mesmo tipo da primária em, não esqueçam!
 > 
