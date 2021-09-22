@@ -75,7 +75,7 @@ Utilizei abaixo um modelo que construimos no Dbdesigner como exemplo:
 
 > Dica de ouro é: Sempre que for fazer o código de criação de tabelas importante focar em um detalhe, se existe chave estrangeira é interessante que ela seja criada por ultimo. Pois ela se referencia a tabela principal na qual vamos relacionar com a chave primária. 
 
-Como no exemplo abaixo, utilizando comandos no MySql workbench(https://www.mysql.com/products/workbench/):
+Como no exemplo abaixo, utilizando comandos no [MySql workbench](https://www.mysql.com/products/workbench/):
 ~~~create database db_femme;
 create database db_femme;
 use db_femme;
@@ -102,6 +102,8 @@ SELECT * FROM db_femme.tb_clientes;
     SELECT * FROM db_femme.tb_livros;
 ~~~
 
+Dúvidas ou sugestão sobre o material, estou à disposição. 
 
+Até a próxima!
 
 
